@@ -18,7 +18,7 @@ Backend: PostAssignment/api
             % npm init
             % npm install --save json-server
 	Start server: 
-		% npm run json:server:remote
+	    % npm run json:server:remote
 ```
 
 ```
