@@ -17,23 +17,23 @@ Use React to create a Post web application.
 Backend: PostAssignment/api
             % npm init
             % npm install --save json-server
-				 Start server: 
-				 		% npm run json:server:remote
+	Start server: 
+		% npm run json:server:remote
 ```
 
 ```
 Frontend: PostAssignment/client
-						% npx create-react-app client
-						%  npm install --save redux react-redux axios redux-thunk
+	% npx create-react-app client
+	%  npm install --save redux react-redux axios redux-thunk
  react-router-dom redux-form --legacy-peer-deps lodash
  
- 					PostAssignment/client/public/index.html input a css link:
- 						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+ PostAssignment/client/public/index.html input a css link:
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 ```
 
 ```
 test: npm install --save enzyme 
-			npm install --save-dev @wojtekmaj/enzyme-adapter-react-17
+      npm install --save-dev @wojtekmaj/enzyme-adapter-react-17
 ```
 
 ### TODO
