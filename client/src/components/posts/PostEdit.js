@@ -22,7 +22,7 @@ class PostEdit extends React.Component {
             <div>
                 <h3>Edit a Post</h3>
                 <PostForm 
-                    initialValues={_.pick(this.props.post, 'title', 'body')}
+                    initialValues={_.pick(this.props.post, 'title', 'body')} //only update title and body
                     onSubmit={this.onSubmit} 
                 />
             </div>

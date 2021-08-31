@@ -7,6 +7,7 @@ const PostSearch = () => {
     const [debouncedTerm, setDebouncedTerm] = useState(term);
     const [results, setResults] = useState([]);
    
+    //Wait for 500ms without another 'input Change' -> Search
     useEffect(() => {
         const timeId = setTimeout(() => {
             setDebouncedTerm(term);
