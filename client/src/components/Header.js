@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import GoogleAuth from './GoogleAuth';
 
 class Header extends React.Component {
     render() {      
@@ -18,6 +19,7 @@ class Header extends React.Component {
                         New Post
                     </Link>
                 </div>
+                <GoogleAuth />
             </div>
         )
     }
